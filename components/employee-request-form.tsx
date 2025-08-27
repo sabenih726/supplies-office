@@ -108,7 +108,7 @@ export function EmployeeRequestForm() {
           </Link>
           <div>
             <h1 className="text-3xl font-bold text-balance">Request Office Supplies</h1>
-            <p className="text-muted-foreground mt-2">Submit your office supplies request</p>
+            <p className="text-muted-foreground mt-2">Submit office supplies request</p>
           </div>
         </div>
 
@@ -120,7 +120,7 @@ export function EmployeeRequestForm() {
                 <FileText className="h-5 w-5" />
                 Employee Information
               </CardTitle>
-              <CardDescription>Please provide your details</CardDescription>
+              <CardDescription>Please provide details</CardDescription>
             </CardHeader>
             <CardContent className="grid gap-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -144,8 +144,12 @@ export function EmployeeRequestForm() {
                       <SelectItem value="IT">Information Technology</SelectItem>
                       <SelectItem value="Finance">Finance</SelectItem>
                       <SelectItem value="Marketing">Marketing</SelectItem>
-                      <SelectItem value="Operations">Operations</SelectItem>
+                      <SelectItem value="Product Support">Product Support</SelectItem>
+                      <SelectItem value="SCCP">SCCP</SelectItem>
                       <SelectItem value="Sales">Sales</SelectItem>
+                      <SelectItem value="Customer Service">Customer Service</SelectItem>
+                      <SelectItem value="PP SC">PP SC</SelectItem>
+                      <SelectItem value="RUE">RUE</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
