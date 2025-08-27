@@ -329,7 +329,7 @@ export function InventoryDashboard() {
         <Card>
           <CardHeader>
             <CardTitle>Inventory Items</CardTitle>
-            <CardDescription>Manage your office supplies inventory</CardDescription>
+            <CardDescription>Display office supplies inventory</CardDescription>
           </CardHeader>
           <CardContent>
             <Table>
