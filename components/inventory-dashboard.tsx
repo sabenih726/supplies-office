@@ -183,8 +183,8 @@ export function InventoryDashboard() {
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-balance">Office Supplies Inventory</h1>
-            <p className="text-muted-foreground mt-2">Manage your office supplies efficiently</p>
+            <h1 className="text-3xl font-bold text-balance">Office Supplies GA</h1>
+            <p className="text-muted-foreground mt-2">Dikelola Oleh Facility Maintenance</p>
           </div>
           <div className="flex gap-4">
             <Link href="/request">
